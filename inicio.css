@@ -26,18 +26,11 @@ button {
     border: none;
 }
 
-.botones_menu{
-    font-size: 20px;
-    line-height: 24px;
-    background-color: #D9D9D9;
-}
-
 #menu {
     margin-left: 10px;
     background-image: url(./img/icons8-menú-120.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: white;
     height: 33px;
     width: 33px;
     background-size: 33px 33px;
@@ -47,8 +40,7 @@ button {
 #logo {
     text-decoration: none;
     color: black;
-    width: 48px;
-    left: 172px;
+    font-weight: 700;
 }
 
 #logo_little {
@@ -65,11 +57,21 @@ button {
 
 #login {
     text-decoration: none;
-    color: black;
-    background-color: #D9D9D9;
-    width: 51px;
-    height: 28px;
+    color: #027000;
+    line-height: 19px;
+    font-size: 16px;
     padding: 1px;
+    font-weight: 200;
+    text-align: right;
+}
+
+#cart {
+    background-image: url(./img/cart-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
 }
 
 main {
