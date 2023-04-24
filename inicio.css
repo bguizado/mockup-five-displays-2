@@ -51,6 +51,14 @@ button {
     left: 172px;
 }
 
+#logo_little {
+    color: #FAF014;
+}
+
+#logo_lemmon {
+    color: #027000;
+}
+
 #segundo_menu {
     margin-right: 10px;
 }
