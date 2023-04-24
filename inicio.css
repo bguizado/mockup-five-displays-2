@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    height: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+header {
+    max-width: 393px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    flex-flow: wrap;
+}
+
+button {
+    border: none;
+}
+
+.botones_menu{
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #D9D9D9;
+}
+
+#menu {
+    margin-left: 10px;
+    background-image: url(./img/icons8-menú-120.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 33px;
+    width: 33px;
+    background-size: 33px 33px;
+    
+}
+
+#logo {
+    text-decoration: none;
+    color: black;
+    width: 48px;
+    left: 172px;
+}
+
+#segundo_menu {
+    margin-right: 10px;
+}
+
+#login {
+    text-decoration: none;
+    color: black;
+    background-color: #D9D9D9;
+    width: 51px;
+    height: 28px;
+    padding: 1px;
+}
+
+main {
+    max-width: 393px;
+    margin: auto;
+}
+
+#descripcion {
+    box-sizing: border-box;
+    border: 1px solid black;
+    gap: 100px;
+    top: 52px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+span {
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+span[title="titulo_inicio"] {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 16px;
+    word-wrap: break-word;
+}
+
+#reservar {
+    text-decoration: none;
+    color: black;
+    background-color: #D9D9D9;
+    width: max-content;
+    padding: 1px;
+    margin-left: 29px;
+    margin-bottom: 19px;
+}
+
+#botones {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 40px 0;
+    top: 353px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones_main{
+    width: 51px;
+    height: 28px;
+    margin-left: 10px;
+    margin-right: 15px;
+    background-color: #D9D9D9;
+}
+
+#articulos {
+    box-sizing: border-box;
+    border: 1px solid black;
+    top: 493px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 357px;
+    width: 100%;
+    height: 114px;
+    background-color: #D9D9D9;
+    margin-top: 21px;
+    margin-bottom: 15px;
+}

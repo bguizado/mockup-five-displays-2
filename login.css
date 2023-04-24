@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    height: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+header {
+    max-width: 393px;
+    margin: auto;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    flex-flow: wrap;
+}
+
+button {
+    border: none;
+    font-size: 20px;
+    line-height: 24PX;
+    background-color: #d9d9dd;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#enlace_back {
+    background-color: #d9d9dd;
+    padding: 1px 5px;
+}
+
+main {
+    box-sizing: border-box;
+    border: 1px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 393px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-left:  7%;
+}
+
+form {
+    margin-top: 100px;
+}
+
+fieldset {
+    border: none;
+    background: #D9D9D9;
+    padding: 32px 18px;
+    margin: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-flow: wrap;
+}
+
+
+input{
+    height: 52px;
+    border: none;
+}
+
+form button {
+    margin:  auto auto 40px;
+    margin-top: 64px;
+    display: flex;
+    padding:  0px 16px;
+
+}
+
+#registro {
+    margin-top: 51px;
+}
