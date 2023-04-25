@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    height: auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -10,16 +15,16 @@ body {
 }
 
 header {
-    max-width: 393px;
-    margin: auto;
+    height: 10vh;
+    padding: 1rem;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 16px;
     flex-flow: wrap;
+    width: 100vw;
 }
 
 button {
@@ -52,7 +57,7 @@ button {
 }
 
 #segundo_menu {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 #login {
@@ -75,33 +80,29 @@ button {
 }
 
 main {
-    max-width: 393px;
-    margin: auto;
+    height: 35vh;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: relative;
 }
 
 #descripcion {
-    box-sizing: border-box;
-    border: 1px solid black;
-    gap: 100px;
-    top: 52px;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-
+    z-index: 10;
+    padding: 1rem;
 }
 
-span {
-    margin-left: 10px;
-    font-size: 20px;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-
-span[title="titulo_inicio"] {
+h1 {
     font-size: 30px;
     line-height: 36px;
-    margin-top: 16px;
-    word-wrap: break-word;
+}
+
+p {
+    font-size: 20px;
+    line-height: 24px;
 }
 
 #reservar {
@@ -111,7 +112,13 @@ span[title="titulo_inicio"] {
     width: max-content;
     padding: 1px;
     margin-left: 29px;
-    margin-bottom: 19px;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 #botones {
