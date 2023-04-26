@@ -68,16 +68,21 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 393px;
-    margin: auto;
-    padding-bottom: 100px;
 }
-
 
 h1 {
     font-size: 40px;
     line-height: 48px;
-    margin-left:  7%;
+    margin-top:  80px;
+    padding: 1rem;
+}
+
+.color_amarillo {
+    color: #FAF014;
+}
+
+.color_verde {
+    color: #027000;
 }
 
 form {
@@ -95,7 +100,6 @@ fieldset {
     gap: 12px;
     flex-flow: wrap;
 }
-
 
 input{
     height: 52px;
