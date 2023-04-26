@@ -115,7 +115,7 @@ p {
     border-radius: 15px;
 }
 
-img {
+#imagen_principal {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -140,18 +140,36 @@ img {
 #articulos {
     box-sizing: border-box;
     border: 1px solid black;
-    top: 493px;
     flex-direction: column;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 47vh;
+    padding: 1rem;
 }
 
 .card {
-    max-width: 357px;
-    width: 100%;
-    height: 114px;
-    background-color: #D9D9D9;
-    margin-top: 21px;
-    margin-bottom: 15px;
+    width: 90%;
+    height: 12vh;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+}
+
+.imagen_card {
+    height: 100%;
+    flex-basis: 33.3%;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.texto_card {
+    color: black;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    flex-basis: 66.6%;
+    flex-grow: 1;
+    justify-content: center;
 }
