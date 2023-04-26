@@ -21,18 +21,22 @@
         </main>
         <section>
             <form action="">
-                <fieldset>                  
+                <fieldset class="datos_usuario">                  
                     <label for="user">Username</label>
                     <input type="text" name="" id="user">
                 </fieldset>
-                <fieldset>
+                <fieldset class="datos_usuario">
                     <label for="password">Password</label>
                     <input type="password" name="" id="password">              
                 </fieldset>
+                <fieldset id="campo_boton">
                     <button type="submit">LOGIN</button>
+                </fieldset>                    
             </form>
         </section>
-        <span id="registro">Sin cuenta?, create una <a href="./registro.html">aquí</a></span>
+        <div id="link_registro">
+            <a href="./registro.html"><font class="color_amarillo"> an account yet? Create one</font></a>
+        </div>        
     </div>
 </body>
 </html>
