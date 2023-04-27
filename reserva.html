@@ -10,16 +10,16 @@
 <body>
     <header>
         <nav>
-            <button class="botones_menu">Menu</button>
-            <a id="logo" href="">Logo</a>
+            <a id="enlace_back" href="./login.html"> < Back</a>
+            <a id ="logo" href="./inicio.html"><font class="color_amarillo">Little </font><font class="color_verde">Lemmon</font></a>
             <div>
                 <a id="user" href="">User</a>
-                <button class="botones_menu">Cart</button>
+                <button id="cart"></button>
             </div>
         </nav>
     </header>
     <main>
-        <p id="titulo_reserva">Reservar una mesa</p>
+        <h1>Book a Table</h1>
         <section id="reservar_mesa">
                 <div class="mesa"><p>T1</p></div>
                 <div class="mesa"><p>T2</p></div>         
@@ -29,18 +29,17 @@
         <section>
             <form action="">
                 <fieldset>
-                    <label for="date">Fecha</label>
+                    <label class="label_form" for="date">Select a Date</label>
                     <input type="datetime" name="" id="date">
                 </fieldset>
-                <fieldset>
-                    <label for="food">Comida</label>
-                    <input type="text" name="" id="food" placeholder="search for a dinner">
+                <fieldset id="campos_comida">
+                    <label class="label_form" id="food" for="food">Select a Dinner</label>
+                    <div id="contenedor_campos">                    
+                        <input type="text" name="" id="food" class="input_food" placeholder="search for a dinner">
+                        <input type="number" name="" id="quantity" class="input_food" placeholder="how many?">
+                    </div>
                 </fieldset>
-                <fieldset>
-                    <label for="quantity">Cantidad</label>
-                    <input type="number" name="" id="quantity" placeholder="how many?">
-                </fieldset>
-                <button type="submit">PAGAR</button>
+                <button type="submit">CHECKOUT</button>
             </form>
         </section>
     </main>    

@@ -107,10 +107,9 @@ input{
 
 form button {
     font-size: 35px;
-    margin:  auto auto 40px;
+    margin-top: 2rem;
     padding:  7px 0px;
-    max-width: 300px;
-    width: 100%;
+    width: 90%;
     color: #027000;
     background-color: #FAF014;
     font-style: italic;

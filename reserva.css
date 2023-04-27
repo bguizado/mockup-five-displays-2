@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    height: auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -10,63 +15,91 @@ body {
 }
 
 header {
-    max-width: 393px;
-    margin: auto;
+    height: 8vh;
+    padding: 1rem;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 16px;
-    flex-flow: wrap;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+#enlace_back {
+    font-size: 16px;
+}
+
+#logo {
+    font-weight: 700;
+}
+
+.color_amarillo {
+    color: #FAF014;
+}
+
+.color_verde {
+    color: #027000;
+}
+
+#cart {
+    background-image: url(./img/cart-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
 }
 
 button {
     border: none;
-}
-
-.botones_menu{
     font-size: 20px;
-    line-height: 24px;
-    background-color: #D9D9D9;
+    line-height: 24PX;
 }
 
-#menu {
-    margin-left: 10px;
-}
-
-#logo {
+a {
     text-decoration: none;
-    color: black;
-    width: 48px;
-    left: 172px;
+    color: #027000;
+}
+
+#user {
+    text-decoration: none;
+    color: #027000;
+    line-height: 19px;
+    font-size: 16px;
+    padding: 1px;
+    font-weight: 200;
+    text-align: right;
 }
 
 main {
-    max-width: 393px;
-    margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#titulo_reserva {
-    margin-top: 60px;
+h1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #027000;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 p {
     font-size: 30px;
     line-height: 36px;
     font-style: italic;
+    color: #027000;
 }
 
 #reservar_mesa {
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid #027000;
     display: flex;
     justify-content: center;
     flex-flow: wrap;
@@ -75,9 +108,8 @@ p {
 
 .mesa {
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid #FAF014;
     margin: 40px 40px;
-    padding: 45px 45px;
     border-radius: 50%;
     width: 110px;
     height: 110px;
@@ -88,17 +120,28 @@ p {
 
 form {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#campos_comida {
+    display: flex;
+}
+
+#contenedor_campos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 fieldset {
     border: none;
-    padding: 14px 14px;
-    margin: 10px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 12px;
-    flex-flow: wrap;
+    width: 90%;
 }
 
 label {
@@ -106,10 +149,26 @@ label {
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
+    font-family: 'Inter';
+    color: #027000;
+}
+
+.label_form {
+    margin-top: 1rem;
+}
+
+#date {
+    height: 40px;
+
 }
 
 input {
     height: 33px;
+    border: 1px solid black;
+}
+
+.input_food {
+    border: 1px solid #027000;
 }
 
 input[placeholder] {
@@ -118,9 +177,10 @@ input[placeholder] {
 
 form button {
     font-size: 35px;
-    margin:  auto auto 40px;
-    margin-top: 45px;
-    padding:  7px 0px;
-    max-width: 300px;
-    width: 100%;
+    margin-top: 2rem;
+    padding: 7px 0px;
+    width: 90%;
+    color: #FAF014;
+    background-color: #027000;
+    font-style: italic;
 }
